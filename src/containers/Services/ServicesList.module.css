@@ -1,0 +1,42 @@
+.container1 {
+    margin-top: 35rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+ .title {
+    flex: 2 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.title h5 {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 18px;
+        color: #5E6282;
+        margin-bottom: 0;
+ }
+.title h2 {
+    font-family: 'Volkhov';
+        font-weight: bold;
+        font-size: 50px;
+        color: #14183E;
+        margin-top: 0;
+      
+    }
+.grpImg {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    
+}
+.container2 {
+    display: grid;
+    min-width: 1089px;
+    min-height: 356px;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 0;
+}

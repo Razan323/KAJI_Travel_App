@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1102px;
+    min-height: 617px;
+    margin:3rem 5rem auto;
+  
+}
+.title{ 
+    text-align: center;
+}
+.title h4{
+    font-family: 'Poppins' ;
+    font-weight: 600;
+    font-size:18pt ;
+    color:#5E6282 ;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.title h2 {
+    font-family: 'Volkhov';
+    font-weight:bold ;
+    font-size:50pt ;
+    color: #14183E;
+}
+.desPanel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    column-gap: 2rem;
+}
+
+.placePic {
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.info {
+    position: relative;
+   display: inline-block;
+   overflow: visible;  
+}
+.info h5, h4 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18pt;
+    color: #5E6282;
+    margin: 0;
+  
+}
+.info h4 {
+    align-items: flex-start;
+}
+.info p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16pt;
+    color: #5E6282;
+}
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+}
+.sec1 h4{
+    text-align: right;
+    align-self: start;
+    margin-left: 13rem;
+    position: relative;
+}
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+   
+}
+.placePic:hover {
+    height: 75%;
+    min-height: max-content;
+    transition:none 0.3s ease-in-out ; 
+}

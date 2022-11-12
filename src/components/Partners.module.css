@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    min-width: 1073px;
+    min-height: 162px;
+    column-gap: 5rem;
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.container img {
+    width: 90%;
+    height: auto;
+    color: #000;
+    opacity: 1;
+}

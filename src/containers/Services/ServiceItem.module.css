@@ -1,0 +1,49 @@
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 227px;
+    min-width: 190px;
+}
+
+.offers h4 {
+    font-family: 'Open Sans';
+    font-weight: 600 ;
+    font-size: 20pt;
+    color: #1E1D4C;
+}
+.offers p {
+    font-family: 'Poppins';
+    font-weight: 500 ;
+    font-size: 16pt;
+    color: #5E6282;
+    text-align: center;
+    margin-top:0 ;
+}
+.invisible {
+   visibility: hidden;
+   position: absolute;
+   z-index: -1;
+   left: -60px;
+   bottom: -35px;
+}
+.visible {
+display: inline-block;
+   position: absolute;
+   z-index: -1;
+   left: -60px;
+   bottom: -35px;
+
+}
+.offers:hover {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    transform: translateX(-1px);
+    margin-left: 5rem ;
+    margin-bottom: 3rem;
+    transition:none 0.3s ease-in-out ; 
+    z-index: 8;
+    
+    }

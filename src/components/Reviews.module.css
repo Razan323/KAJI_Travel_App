@@ -1,0 +1,21 @@
+.reviewsContainer {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+        min-width: 1186px;
+        min-height: 381px;
+        margin: auto;
+        margin-left: 5rem;
+}
+.txt h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18pt ;
+    color: #5E6282 ;
+}
+.txt h2{
+    font-family: 'Volkhov';
+    font-weight: bold;
+    font-size: 50pt ;
+    color: #14183E ;
+}

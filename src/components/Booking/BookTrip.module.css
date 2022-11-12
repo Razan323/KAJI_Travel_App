@@ -1,0 +1,99 @@
+.bookContainer {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    min-width: 1114px;
+    min-height: 492px;
+    margin: 2rem 5rem;
+   
+}
+.bookHead h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18pt ;
+    color: #5E6282 ;
+}
+.bookHead h2{
+    font-family: 'Volkhov';
+    font-weight: bold;
+    font-size: 50pt ;
+    color: #14183E ;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.details h3, p{
+ font-family: 'Poppins';
+ font-weight: bold;
+ font-size: 16pt ;
+ color: #5E6282 ;
+ margin-left: 2rem;
+}
+.details p{
+    font-weight: 400;
+   padding-top: 0;
+   }
+.details h3{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.trip{
+    min-width: 370px ;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.holder {
+    height: 161px;
+    width: 321px;
+   margin: 2rem 0;
+}
+.holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+  
+}
+.con {
+    display: inline-block;  
+    width: 139px;
+    height: 46;
+}
+.con img {
+    width: 100%;
+    height: 46px;
+     background-color:#F5F5F5;
+     color: #080809;
+     border-radius: 50%;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     scale: 0.4;
+     margin-left: 0;
+}
+.con1{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+h5{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18pt;
+    color: #080809;
+}
+ p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16pt;
+    color: #84829A;
+}
+.con1 p{
+    margin-right: 22rem;
+}
