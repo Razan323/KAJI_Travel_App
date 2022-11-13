@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/KAJI_Travel_App/static/css/main.680de25b.css",
-    "main.js": "/KAJI_Travel_App/static/js/main.4d41837a.js",
-    "static/media/temp2.svg": "/KAJI_Travel_App/static/media/temp2.a08c79c7c669b43431c7476f1f43dcc7.svg",
+    "main.css": "/KAJI_Travel_App/static/css/main.00eaaf6d.css",
+    "main.js": "/KAJI_Travel_App/static/js/main.929f8fe6.js",
     "static/media/Rome.jpg": "/KAJI_Travel_App/static/media/Rome.8f4328adbe9626038ec8.jpg",
     "static/media/Europe.jpg": "/KAJI_Travel_App/static/media/Europe.5b53fb1749ff038a3536.jpg",
     "static/media/greece.jpg": "/KAJI_Travel_App/static/media/greece.5b53fb1749ff038a3536.jpg",
@@ -36,11 +35,11 @@
     "static/media/navigation.svg": "/KAJI_Travel_App/static/media/navigation.d35855dc96494f73f6791abd8fcfccfe.svg",
     "static/media/facebook.svg": "/KAJI_Travel_App/static/media/facebook.f9b1edff2baffd70adbfa53037856b56.svg",
     "static/media/Rectangle.svg": "/KAJI_Travel_App/static/media/Rectangle.073343b412a3d8de0b3b1076d25a6a75.svg",
-    "main.680de25b.css.map": "/KAJI_Travel_App/static/css/main.680de25b.css.map",
-    "main.4d41837a.js.map": "/KAJI_Travel_App/static/js/main.4d41837a.js.map"
+    "main.00eaaf6d.css.map": "/KAJI_Travel_App/static/css/main.00eaaf6d.css.map",
+    "main.929f8fe6.js.map": "/KAJI_Travel_App/static/js/main.929f8fe6.js.map"
   },
   "entrypoints": [
-    "static/css/main.680de25b.css",
-    "static/js/main.4d41837a.js"
+    "static/css/main.00eaaf6d.css",
+    "static/js/main.929f8fe6.js"
   ]
 }
